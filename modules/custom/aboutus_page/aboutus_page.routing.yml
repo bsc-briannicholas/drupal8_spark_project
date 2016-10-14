@@ -1,0 +1,7 @@
+aboutus_page.content:
+  path: '/aboutus_page'
+  defaults:
+    _controller: '\Drupal\aboutus_page\Controller\AboutUsPageController::content'
+    _title: 'About Animal Rescue'
+  requirements:
+    _permission: 'access content'
