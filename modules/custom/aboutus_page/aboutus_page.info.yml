@@ -1,0 +1,4 @@
+name: About Us Page
+type: module
+core: '8.x'
+description: 'A static about us page module.'
