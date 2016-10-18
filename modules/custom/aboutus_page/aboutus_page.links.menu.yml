@@ -1,0 +1,6 @@
+aboutus_page.newpage:
+  title: 'About Us'
+  description: 'Link to the custom about us page'
+  route_name: aboutus_page.content
+  weight: 10
+  menu_name: main
