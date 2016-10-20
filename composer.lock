@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e4edcaed102b2a522a3289620bbc9967",
-    "content-hash": "eba2acbaab93a10e9afa668e908977db",
+    "hash": "a1327722cc258a213e85f95c81f99a5f",
+    "content-hash": "3a30e0756deb262cdc167b270d99aca8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -398,6 +398,50 @@
                 "versioning"
             ],
             "time": "2015-09-21 09:42:36"
+        },
+        {
+            "name": "cweagans/composer-patches",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "8de7c73b2eae217f4e7028d7262ff2330aa4b4e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/8de7c73b2eae217f4e7028d7262ff2330aa4b4e8",
+                "reference": "8de7c73b2eae217f4e7028d7262ff2330aa4b4e8",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "time": "2016-03-28 18:54:21"
         },
         {
             "name": "doctrine/annotations",
@@ -845,6 +889,44 @@
                 "source": "http://cgit.drupalcode.org/address"
             },
             "time": "2016-10-05 14:44:46"
+        },
+        {
+            "name": "drupal/better_exposed_filters",
+            "version": "dev-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/better_exposed_filters",
+                "reference": "e6c1eea920c502108b3d2a6c5f09fd1ceae1594a"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-alpha1+8-dev",
+                    "datestamp": "1476390239"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "mikeker",
+                    "homepage": "https://www.drupal.org/user/192273"
+                }
+            ],
+            "description": "Provides advanced options (such as links, checkboxes, or jQueryUI widgets) for exposed Views elements.",
+            "homepage": "https://www.drupal.org/project/better_exposed_filters",
+            "support": {
+                "source": "http://cgit.drupalcode.org/better_exposed_filters"
+            },
+            "time": "2016-10-13 20:20:43"
         },
         {
             "name": "drupal/config_update",
@@ -4907,7 +4989,8 @@
         "drupal/pathauto": 20,
         "drupal/shs": 20,
         "drupal/contact_storage": 20,
-        "drupal/office_hours": 20
+        "drupal/office_hours": 20,
+        "drupal/better_exposed_filters": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
